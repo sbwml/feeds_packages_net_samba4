@@ -4,7 +4,7 @@
  #include "system/passwd.h"
  #include "system/filesys.h"
  
-+#if !defined(__GLIBC__) 
++#if !defined(__GLIBC__)
 +	#define NSS_BUFLEN_PASSWD 1024
 +#endif
 +
