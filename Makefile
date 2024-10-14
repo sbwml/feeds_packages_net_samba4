@@ -2,7 +2,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=samba
-PKG_VERSION:=4.21.0
+PKG_VERSION:=4.21.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
@@ -13,7 +13,7 @@ PKG_SOURCE_URL:= \
 		http://www.nic.funet.fi/index/samba/pub/samba/stable/ \
 		http://samba.mirror.bit.nl/samba/ftp/stable/ \
 		https://download.samba.org/pub/samba/stable/
-PKG_HASH:=09bb56db4ce003cafdbebe9bad368c4f4ff1945f732d18077d52f36ab20cef88
+PKG_HASH:=bd02f55da538358c929505b21fdd8aeba53027eab14c849432a53ed0bae1c7c2
 
 PKG_BUILD_FLAGS:=gc-sections
 
