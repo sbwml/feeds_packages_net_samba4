@@ -1,4 +1,4 @@
-# openwrt 23.05 - samba4 latest version
+# openwrt 24.10 - samba4 latest version
 
 ```shell
 rm -rf feeds/packages/libs/liburing
